@@ -1,0 +1,22 @@
+.drinks {
+    height: 180px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    border-left: none;
+    border-right: none;
+    max-width: 100%;
+    margin-bottom: 55px;
+
+    &__wrapper {
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+}

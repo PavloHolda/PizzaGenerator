@@ -1,0 +1,58 @@
+.current-pizza-item {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    &.testo {
+        background-image: url(../../../img/toppings/testo.png);
+    }
+
+    &.osnova {
+        background-image: url(../../../img/toppings/osnova.png);
+    }
+
+    &.vetchina {
+        background-image: url(../../../img/toppings/vetchina.png);
+    }
+
+    &.kolbasa {
+        background-image: url(../../../img/toppings/kolbasa.png);
+    }
+
+    &.bekon {
+        background-image: url(../../../img/toppings/bekon.png);
+    }
+
+    &.shampinion {
+        background-image: url(../../../img/toppings/shampinion.png);
+    }
+
+    &.chiken {
+        background-image: url(../../../img/toppings/chiken.png);
+    }
+
+    &.perec {
+        background-image: url(../../../img/toppings/perec.png);
+    }
+
+    &.tomat {
+        background-image: url(../../../img/toppings/tomat.png);
+    }
+
+    &.olives {
+        background-image: url(../../../img/toppings/olives.png);
+    }
+    
+    &.ananas {
+        background-image: url(../../../img/toppings/ananas.png);
+    }
+
+    &.mozzarella {
+        background-image: url(../../../img/toppings/mozzarella.png);
+    }
+}

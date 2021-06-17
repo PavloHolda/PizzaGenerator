@@ -1,0 +1,70 @@
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+}
+
+.modal-window {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+    &__body {
+        background-color: #fff;
+        color: #000;
+        width: 400px;
+        padding: 25px;
+        position: relative;
+    }
+
+    &__list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    &__totalcost {
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    &__btn {
+        max-width: 150px;
+        border: 1px solid transparent;
+
+        &:hover {
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #000;
+            transition: all 0.2s ease;
+        }
+    }
+    
+    &__area {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}

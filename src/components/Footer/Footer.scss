@@ -1,0 +1,46 @@
+.footer {
+    max-width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    padding-bottom: 130px;
+}
+
+.make-an-order {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__allprice {
+        margin-right: 230px;
+    }
+
+    &__btn {
+        max-width: 258px;
+        height: 59px;
+
+        &:hover {
+            color: #000;
+            background-color: white;
+            transition: all 0.2s ease;
+        }
+    }
+
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        color: rgba(255, 255, 255, 0.9);
+        margin-right: 15px;
+    }
+
+    span {
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 29px;
+        color: rgba(255, 255, 255, 0.9);
+    }
+}

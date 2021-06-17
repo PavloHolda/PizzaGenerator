@@ -1,0 +1,47 @@
+.creator-pizza {
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        width: 387px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    &__right {
+        width: 387px;
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        & .topping-item .container-custom-checkbox {
+            padding-left: 65px;
+        }
+
+        & .checkmark {
+            left: 0;
+            margin-left: 0;
+            margin-right: 15px;
+        }
+    }
+
+    &__center {
+        width: 650px;
+        display: flex;
+        justify-content: center;
+
+        .current-pizza {
+            width: 406px;
+            height: 406px;
+            position: relative;
+        }
+    }
+}
